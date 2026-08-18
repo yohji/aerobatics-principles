@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    width: 210mm; height: 297mm;
+    font-family: "Liberation Sans", "DejaVu Sans", sans-serif;
+    color: #111;
+    padding: 9mm 11mm 7mm 11mm;
+    display: flex; flex-direction: column;
+  }
+
+  header { border-bottom: 1.6pt solid #111; padding-bottom: 2mm; margin-bottom: 3mm; }
+  .htop { display: flex; align-items: baseline; justify-content: space-between; }
+  h1 { font-size: 17.5pt; margin: 0; letter-spacing: .4pt; font-weight: 700; }
+  .sub { font-size: 8.6pt; color: #444; margin-top: 1mm; }
+  .tag { font-size: 8.5pt; color: #555; letter-spacing: .8pt; text-transform: uppercase; }
+
+  .warn {
+    margin: 0 0 3mm 0; padding: 1.5mm 2.6mm;
+    border-left: 2.5pt solid #111; background: #f2f2f2;
+    font-size: 8.1pt; line-height: 1.3;
+  }
+
+  section { margin-bottom: 3mm; break-inside: avoid; }
+  h2 {
+    font-size: 11.5pt; margin: 0 0 1.2mm 0; padding-bottom: .7mm;
+    border-bottom: .8pt solid #111; letter-spacing: 1.6pt; text-transform: uppercase;
+  }
+  .setup { font-size: 8.1pt; line-height: 1.33; margin: 0 0 1.6mm 0; }
+  .setup b { font-weight: 700; }
+  .setup ul { margin: 0; padding-left: 4.5mm; }
+  .setup li { margin-bottom: .2mm; }
+
+  .seq {
+    font-family: "Liberation Mono", "DejaVu Sans Mono", monospace;
+    font-size: 8.7pt; line-height: 1.45;
+    border: .8pt solid #999; border-radius: 1mm;
+    padding: 1.6mm 2.6mm;
+  }
+  .seq div { white-space: nowrap; }
+  .seq div + div { border-top: .4pt dotted #ccc; padding-top: .35mm; margin-top: .35mm; }
+
+  .legend {
+    margin-top: auto; border-top: .8pt solid #111; padding-top: 1.8mm;
+    font-size: 7.3pt; color: #333; line-height: 1.38;
+  }
+  .legend .k { font-family: "Liberation Mono", monospace; font-weight: 700; }
+  .foot { display: flex; justify-content: space-between; margin-top: 1.2mm;
+          font-size: 7pt; color: #555; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="htop">
+    <h1>AEROBATICS &mdash; WARM-UP EXERCISES</h1>
+    <div class="tag">Kneeboard card</div>
+  </div>
+  <div class="sub">Aerobatics Principles &middot; Marco &ldquo;Blackbird&rdquo; Merli &middot; entry parameters and sequences only &mdash; the full explanation is in the book</div>
+</header>
+
+<div class="warn">
+  <b>FLIGHT SIMULATION USE ONLY.</b> Fly each step until it is repeatable and relaxed before moving on.
+  Declare your <b>hard deck</b> before every session and never descend below it for any reason:
+  if a figure is not finished by the time you reach it, abandon the figure and recover.
+</div>
+
+<section>
+  <h2>Lines</h2>
+  <div class="setup">
+    <ul>
+      <li><b>Height</b> &mdash; 4,000 ft AGL minimum. The vertical down line eats altitude fast.</li>
+      <li><b>Speed</b> &mdash; within the green arc where possible. <b>Vne is an absolute limit, never approached.</b> Manage the throttle, especially on the 90&deg; down line.</li>
+      <li><b>Load Factor</b> &mdash; well inside the positive and negative limits.</li>
+      <li><b>Controls</b> &mdash; Ailerons and Rudder only to level the wings between sets, or for safety.</li>
+    </ul>
+  </div>
+  <div class="seq">
+    <div>AFT (~+1,000 ft/min)  |  LVL  |  FWD (~-1,000 ft/min)  |  LVL</div>
+    <div>45&deg; AFT  |  LVL  |  45&deg; FWD  |  LVL</div>
+    <div>90&deg; AFT  |  LVL  |  90&deg; FWD  |  LVL</div>
+    <div>45&deg; AFT  |  135&deg; AFT  |  225&deg; AFT  |  LVL &nbsp;&nbsp;&larr; loop flown as a diamond</div>
+  </div>
+</section>
+
+<section>
+  <h2>Rolls</h2>
+  <div class="setup">
+    <ul>
+      <li><b>Attitude</b> &mdash; nose well above the horizon before each sequence; throttle set to support the climb. The pitch you set is what pays for the drop that follows.</li>
+      <li><b>Controls</b> &mdash; Ailerons alone. No Elevator, no Rudder, except for safety.</li>
+      <li><b>Execution</b> &mdash; stop firmly at the target bank and hold it for a moment before the next angle.</li>
+    </ul>
+  </div>
+  <div class="seq">
+    <div>LEFT (&lt;30&deg; bank)  |  LVL  |  RIGHT (&lt;30&deg; bank)  |  LVL</div>
+    <div>LEFT FULL 45&deg;  |  LVL  |  RIGHT FULL 45&deg;  |  LVL</div>
+    <div>LEFT FULL 90&deg;  |  LVL  |  RIGHT FULL 90&deg;  |  LVL</div>
+    <div>LEFT FULL 45&deg;  |  LEFT FULL 90&deg;  |  RIGHT FULL 45&deg;  |  LVL</div>
+    <div>LEFT FULL 180&deg;  |  LVL  |  RIGHT FULL 180&deg;  |  LVL</div>
+    <div>FULL 45&deg;  |  90&deg;  |  135&deg;  |  180&deg;  |  225&deg;  |  270&deg;  |  315&deg;  |  LVL</div>
+  </div>
+</section>
+
+<section>
+  <h2>Turns</h2>
+  <div class="setup">
+    <ul>
+      <li><b>Height</b> &mdash; safe altitude. <b>Speed</b> &mdash; close to Va, in any case below Vne.</li>
+      <li><b>Bank</b> &mdash; 60&deg; to 80&deg;, aircraft dependent. Load factor is 1/cos(bank): <b>60&deg; = 2 G</b>, and beyond 70&deg; the curve rises steeply.</li>
+      <li><b>Controls</b> &mdash; full Aileron to start and to stop the roll; pitch aft immediately to hold the vertical component of lift; small Aileron corrections to keep the plane of motion level.</li>
+      <li><b>Reference</b> &mdash; horizon for pitch, a ground line for degrees of turn completed.</li>
+    </ul>
+  </div>
+  <div class="seq">
+    <div>FULL LEFT  |  180&deg; turn  |  LVL</div>
+    <div>FULL LEFT  |  360&deg; turn  |  LVL</div>
+    <div>FULL LEFT  |  90&deg; turn  |  LVL</div>
+    <div>FULL LEFT  |  270&deg; turn  |  LVL</div>
+  </div>
+</section>
+
+<section>
+  <h2>Stall</h2>
+  <div class="setup">
+    <ul>
+      <li><b>Height</b> &mdash; 4,000 ft AGL minimum. The purpose is to live on the edge of the stall without ever crossing it.</li>
+      <li><b>Speed</b> &mdash; just above Vs, where light buffeting starts. Trim for level flight, throttle to match.</li>
+      <li><b>Both cases</b> &mdash; fly it power-on and at idle. Power-on stalls lower and more abruptly, and torque drops a wing.</li>
+      <li><b>Turning</b> &mdash; keep the turn coordinated. <b>Never use Rudder to tighten it.</b></li>
+    </ul>
+  </div>
+  <div class="seq">
+    <div>LVL</div>
+    <div>CIRCLE RIGHT/LEFT  |  LVL</div>
+    <div>RACETRACK RIGHT/LEFT  |  LVL</div>
+  </div>
+</section>
+
+<div class="legend">
+  <span class="k">AFT</span> nose up &nbsp;&middot;&nbsp;
+  <span class="k">FWD</span> nose down &nbsp;&middot;&nbsp;
+  <span class="k">LVL</span> return to level flight &nbsp;&middot;&nbsp;
+  <span class="k">FULL</span> full control deflection &nbsp;&middot;&nbsp;
+  <span class="k">Vs</span> stall speed &nbsp;&middot;&nbsp;
+  <span class="k">Va</span> manoeuvring speed &nbsp;&middot;&nbsp;
+  <span class="k">Vne</span> never exceed speed &nbsp;&middot;&nbsp;
+  <span class="k">AGL</span> above ground level<br>
+  In the Lines table, angles up to 90&deg; are attitudes; 135&deg; and 225&deg; are cumulative pitch rotation.
+  Roll direction is at the pilot's discretion &mdash; practise both.
+  <div class="foot">
+    <div>github.com/yohji/aerobatics-principles</div>
+    <div>CC BY-NC-SA 4.0 &middot; v1.0</div>
+  </div>
+</div>
+
+</body>
+</html>

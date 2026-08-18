@@ -1,0 +1,9 @@
+# Normalise line endings for text files
+* text=auto eol=lf
+
+# Never attempt to diff or merge binaries.
+# The DOCX is tracked but cannot be merged: only one person edits it at a time.
+*.docx  binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary

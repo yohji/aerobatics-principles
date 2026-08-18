@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you reference this book, please cite it as below."
+title: "Aerobatics Principles"
+abstract: >-
+  A primer on the principles of aerobatic flight, written exclusively for use
+  within flight simulation. Covers energy management, angle of attack, load
+  factor and flight controls, a set of progressive exercises, and the basic
+  catalogue figures.
+type: book
+authors:
+  - family-names: Merli
+    given-names: Marco
+    alias: Blackbird
+version: "1.0"
+date-released: "2026-08-18"
+license: CC-BY-NC-SA-4.0
+url: "https://github.com/yohji/aerobatics-principles"
+repository: "https://github.com/yohji/aerobatics-principles"
+keywords:
+  - aerobatics
+  - flight simulation
+  - aresti
+  - aerodynamics
+  - DCS World
