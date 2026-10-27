@@ -92,3 +92,6 @@ For the maintainer, so the steps stay consistent from one edition to the next:
          --title "vN" --notes-file CHANGELOG.md
 
 6. Refresh the images in `preview/` if the pages they show have changed.
+7. Replace the PDF (and the kneeboard card, if it changed) in the
+   [Internet Archive mirror](https://archive.org/details/aerobatics-principles), keeping the
+   same file names, and update the date in the item metadata.

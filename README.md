@@ -18,6 +18,8 @@ monitor. The file name carries no version number: the version is carried by the 
 the download link never changes and a new edition simply replaces the old file on disk.
 
 Older versions remain available on the [releases page](https://github.com/yohji/aerobatics-principles/releases).
+A mirror of the current edition is kept on the
+[Internet Archive](https://archive.org/details/aerobatics-principles).
 
 ### Source
 
