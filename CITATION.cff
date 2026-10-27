@@ -11,8 +11,8 @@ authors:
   - family-names: Merli
     given-names: Marco
     alias: Blackbird
-version: "1.0"
-date-released: "2026-08-18"
+version: "1"
+date-released: "2026-10-27"
 license: CC-BY-NC-SA-4.0
 url: "https://github.com/yohji/aerobatics-principles"
 repository: "https://github.com/yohji/aerobatics-principles"
@@ -21,4 +21,6 @@ keywords:
   - flight simulation
   - aresti
   - aerodynamics
+  - Microsoft Flight Simulator
+  - X-Plane
   - DCS World

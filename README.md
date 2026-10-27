@@ -60,6 +60,7 @@ and it says so repeatedly: where the two disagree, the flight manual always wins
   Spin · Snap-Roll
 - **Glossary** - every abbreviation used in the book, in one table
 - **External links** - bibliography, simulators, software
+- **Credits** - the source and licence of every image in the book
 
 ## Preview
 
@@ -80,9 +81,12 @@ restyled or translated.
 
 ## Simulators
 
-The book is simulator-agnostic - the principles apply to any platform. It was written with
-[DCS World](https://www.digitalcombatsimulator.com/) in mind, and the aircraft referenced throughout 
-the Christen Eagle II and the MB-339. Aresti sequences can be designed with [OpenAero](https://openaero.net/).
+The book is simulator-agnostic: the principles apply to any platform with a credible flight
+model - Microsoft Flight Simulator, X-Plane, DCS World or any other. Fly any aerobatic-capable
+aircraft your simulator offers, and keep its manual at hand for the numbers. The book was
+written in [DCS World](https://www.digitalcombatsimulator.com/), so the aircraft listed in the
+External links are the DCS Yak-52, Christen Eagle II and MB-339. Aresti sequences can be
+designed with [OpenAero](https://openaero.net/).
 
 ## Errata and contributions
 
